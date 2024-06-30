@@ -56,5 +56,5 @@ class StudentView(APIView):
     
 def home(requests):
     return HttpResponse('HELOOOOOOOOOOOOOO')
-
+    #this should be seen on the website
 

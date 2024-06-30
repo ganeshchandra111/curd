@@ -69,7 +69,7 @@ ROOT_URLCONF = 'curd.urls'
 
 
 CORS_ALLOWED_ORIGINS = [
-    'https://example.com',  # Replace with your frontend URL
+    'https://warm-rugelach-b692db.netlify.app/',  # Replace with your frontend URL
     'http://localhost:3000',  # Example for local development
     # Add more origins as needed
 ]
