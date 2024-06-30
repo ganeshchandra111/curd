@@ -21,6 +21,10 @@
         "src": "/(.*)",
         "dest": "curd/wsgi.py"
       }
-    ]
+    ],
+    "env": {
+    "DJANGO_SETTINGS_MODULE": "curd.settings",
+    "DATABASE_URL": "sqlite:///db.sqlite3"
+    }
   }
   
