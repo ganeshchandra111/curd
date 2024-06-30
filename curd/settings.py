@@ -61,6 +61,8 @@ MIDDLEWARE = [
 
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
+
+    'curdapp.middleware.DisableFaviconMiddleware',
 ]
 
 ROOT_URLCONF = 'curd.urls'
